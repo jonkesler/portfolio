@@ -5,4 +5,4 @@ Responsive Professional Portfolio
 Website: https://jonkesler.github.io/portfolio/
 
 SSH Repository: git@github.com:jonkesler/portfolio.git
-HTTPS Repository: 
+HTTPS Repository: https://github.com/jonkesler/portfolio.git
