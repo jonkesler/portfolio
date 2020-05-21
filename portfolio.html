@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="sytlesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- media queries for screens 780 and 640 -->
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <title>Jon Kesler Responsive Portfolio</title>
+  </head>
+  <body>
+    <!-- main-container will allow footer to always be at bottom of viewport 
+    https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551 -->
+    <div class="main-container">
+    <!-- use Card to overlay NavBar -->
+    <header>
+        <!-- change navbar and bg to white -->
+        <!-- color the nav-brand with css -->
+        <nav class="navbar navbar-expand-sm navbar-light" style="background-color: white">
+            <a class="navbar-brand" href="#">Jon Kesler</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- chage mr-auto to ml-auto to aline to right -->
+                <ul class="navbar-nav ml-auto">
+                    <!-- remove active from nav-item so it's not bold -->
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section>
+      <div class="row">
+        <!-- add media for screen sizes -->
+        <div class="col-sm-12 col-md-12 col-lg-9">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Portfolio</h5>
+                <hr>
+                <div class="row row-cols-1 row-cols-md-2">
+                  <div class="col mb-4">
+                    <div class="card">
+                      <div class="card-img">
+                        <img src="./assets/images/guess.jpg" class="card-img-top img-fluid" alt="Word Guess image">
+                        <!-- add card badge -->
+                        <div class="card-badge">Word Guess</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card">
+                      <div class="card-img">
+                        <img src="./assets/images/rpg.jpg" class="card-img-top img-fluid" alt="RPG Game Image">
+                        <!-- add card badge -->
+                        <div class="card-badge">RPG Game</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card">
+                      <div class="card-img">
+                        <img src="./assets/images/trivia.jpg" class="card-img-top img-fluid" alt="World Trivia Image">
+                        <!-- add card badge -->
+                        <div class="card-badge">Trivia Game</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card">
+                      <div class="card-img">
+                        <img src="./assets/images/widgets.jpg" class="card-img-top img-fluid" alt="Castrol LabCheck Image">
+                        <!-- add card badge -->
+                        <div class="card-badge">Info widget</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card">
+                      <div class="card-img">
+                        <img src="./assets/images/rps.jpg" class="card-img-top img-fluid" alt="Rock Paper Scissors Image">
+                        <!-- add card badge -->
+                        <div class="card-badge">Rock Paper Scissors</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Sticky footer -->
+<!-- Not shown on Portfolio Examples -->
+    <footer class="footer">
+        <div class="container">
+          <!-- Not shown on Portfolio Examples -->
+            <!-- <span>&copy; copywrite</span> -->
+        </div>
+    </footer>
+
+    </div>  <!-- /.main-container -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
