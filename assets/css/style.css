@@ -11,7 +11,7 @@ position: relative;
     position: relative;
     /* removing makes footer stay at bottom during resize */
     /* padding-bottom: 100px; */
-    background-color: rgba(226, 250, 250, 0.89);
+    background-color: rgb(154, 159, 163)
 }
 
 /* remove navbar padding so navbar-brand color goes to top and bottom of navbar */
@@ -25,8 +25,9 @@ position: relative;
     /* add color behind name like example */
     padding-left: 25px;
     padding-right: 25px;
-    background-color: rgba(91, 146, 146, 0.89);
-    color: white;
+    /* background-color: rgba(91, 146, 146, 0.89); */
+    color: rgb(67, 124, 161);
+    font-size: 22pt;
 }
 /* Main container for page - holds Cards and gives padding between header and footer */
 section {
@@ -37,13 +38,16 @@ section {
 
 /* Main Card Title */
 .card-title {
-    color: rgba(91, 146, 146, 0.89);
+    color: rgb(67, 124, 161);
+    font-size: 18pt;
+    padding-top: 30px;
 }
 
 /* Card background images - fills card - portfolio page */
 /* https://stackoverflow.com/questions/50461506/how-to-size-the-image-in-equal-length-in-bootstrap-card */
 .card-img{
     width: 100%!important;
+    /* height: 100%!important; */
     height: 100%!important;
     object-fit: cover;
     /* container of card-badge so added for spacing */
@@ -56,34 +60,53 @@ section {
     bottom: 5px;
     width: 100%;
     padding: 10px;
-    background: rgba(91, 146, 146, 0.89);
+    background: rgba(144, 183, 206, 0.89);
     color: white;
     text-align: center;
 }
-
+.card .card-body .contact {
+    text-align: right;
+}
 /* horizontal line under Main Card Title */
 hr {
-   size: 2px;
+   size: 3px;
    width: 100%;
 }
 /* float image so text will wrap on About Page */
 img {
     float: left;
+    width: 25%;
+    height: 25%;
     padding-right: 15px;
+    padding-bottom: 10px;
 }
 p {
     padding-top: 5px;
 }
 /* Submit button on Portfolio */
-.btn{
-    background: rgba(91, 146, 146, 0.89);
+.button{
+    color: white;
+    background: rgba(144, 183, 206, 0.89);
     border: none;
+}
+.btn{
+    color: white;
+    background: rgba(144, 183, 206, 0.89);
+    border: none;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+}
+.card .card-footer {
+    background: white;
 }
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%; 
-    border-top: 5px solid rgba(91, 146, 146, 0.89);
+    border-top: 5px solid rgba(144, 183, 206, 0.89);
     padding: 15px; 
     background: rgb(112, 112, 112); 
     text-align: center ;
